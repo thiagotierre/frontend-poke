@@ -1,0 +1,26 @@
+form {
+    width: 100%;
+}
+
+input {
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 4px;
+    width: 80%;
+    background: linear-gradient(180deg, #e0f4ff 0%, #fff 50%);
+    border: 2px solid #d9edff;
+}
+
+button {
+    padding: 0.5em;
+    margin: 0.5em;
+    background: linear-gradient(180deg, #e0f4ff 0%, #fff 50%);
+    border: 2px solid #d9edff;
+    border-radius: 4px;
+    width: 13%;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
