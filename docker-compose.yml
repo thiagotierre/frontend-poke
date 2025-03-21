@@ -1,0 +1,26 @@
+services:
+  client:
+    build:
+      context: ./poke-frontend
+      dockerfile: Dockerfile
+    container_name: front-client
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    networks:
+      - application-network
+
+  api:
+    build:
+      context: ./API
+      dockerfile: Dockerfile
+    container_name: back-service
+    ports:
+      - "8080:8080"
+    networks:
+      - application-network
+
+
+networks:
+  application-network:
+    driver: bridge
