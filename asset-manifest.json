@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/frontend-poke/static/css/main.bd602574.css",
+    "main.js": "/frontend-poke/static/js/main.36390d3a.js",
+    "static/js/453.49a34780.chunk.js": "/frontend-poke/static/js/453.49a34780.chunk.js",
+    "static/media/banner.png": "/frontend-poke/static/media/banner.ed2a15d3b02fd6dedad4.png",
+    "index.html": "/frontend-poke/index.html",
+    "main.bd602574.css.map": "/frontend-poke/static/css/main.bd602574.css.map",
+    "main.36390d3a.js.map": "/frontend-poke/static/js/main.36390d3a.js.map",
+    "453.49a34780.chunk.js.map": "/frontend-poke/static/js/453.49a34780.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd602574.css",
+    "static/js/main.36390d3a.js"
+  ]
+}
